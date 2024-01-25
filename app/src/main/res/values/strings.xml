@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E DUCA</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_log">Sesión</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="front">Una plataforma de aprendizaje en línea para el futuro</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="log_in">Ingreso</string>
+    <string name="names">Nombre(s)</string>
+    <string name="lastNames">Apellido(s)</string>
+    <string name="sing_in">Registro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_courses">Cursos</string>
+    <string name="scroll">scroll</string>
+    <string name="title_prices">Precios</string>
+    <string name="title_testimonies">Testimonios</string>
+</resources>

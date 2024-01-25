@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.educa.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_log"
+        android:name="com.example.educa.ui.log.LogFragment"
+        android:label="@string/title_log"
+        tools:layout="@layout/fragment_log" />
+
+    <fragment
+        android:id="@+id/navigation_courses"
+        android:name="com.example.educa.ui.courses.CoursesFragment"
+        android:label="@string/title_courses"
+        tools:layout="@layout/fragment_courses" />
+
+    <fragment
+        android:id="@+id/navigation_prices"
+        android:name="com.example.educa.ui.prices.PricesFragment"
+        android:label="@string/title_prices"
+        tools:layout="@layout/fragment_prices" />
+
+    <fragment
+        android:id="@+id/navigation_testimonies"
+        android:name="com.example.educa.ui.testimonies.TestimoniesFragment"
+        android:label="@string/title_testimonies"
+        tools:layout="@layout/fragment_testimonies" />
+</navigation>
